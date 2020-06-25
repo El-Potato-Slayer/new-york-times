@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+}
+
 .flex {
   display: flex;
 }
@@ -27,6 +31,7 @@
 nav {
   padding: 5px 16px;
   border-bottom: 1px solid lightgray;
+  margin-bottom: 56px;
 }
 
 nav button {
@@ -52,4 +57,13 @@ nav button:hover {
 
 .bold {
   font-weight: bold;
+}
+
+h1, p{
+    margin: 0 auto; 
+    width: 600px;
+}
+
+.red{
+    background: red;
 }
