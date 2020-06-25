@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
-    text-align: center;
+body {
 }
 
 .flex {
@@ -59,11 +58,28 @@ nav button:hover {
   font-weight: bold;
 }
 
-h1, p{
-    margin: 0 auto; 
-    width: 600px;
+h1,
+p {
+  margin: 0 auto;
+  width: 600px;
 }
 
-.red{
-    background: red;
+figcaption {
+  width: 880px;
+}
+
+.red {
+  background: red;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.image-container {
+  width: 1080px;
+}
+
+.full-width {
+  width: 100%;
 }
