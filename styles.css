@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+#logo{
+    width: 200px;
+}
+
+#left-nav{
+    flex-basis: 200px;
+}
+
+#right-nav{
+    flex-basis: 178px;
+}
+
+nav{
+    padding: 5px 16px;
+    border-bottom: 1px solid lightgray;
+}
+
+nav button{
+    background-color: #567b95;
+    border: none;
+    padding: 10px 13px 6px;
+    color: #ffffff;
+    border-radius: 3px;
+}
+
+nav button:hover{
+    background-color: #316891;
+}
