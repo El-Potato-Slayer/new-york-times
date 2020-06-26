@@ -4,32 +4,27 @@
   box-sizing: border-box;
 }
 
-body {
+a{
+  color: #316891
 }
 
-.flex {
-  display: flex;
-}
+/* Nav */
 
-.space-between {
-  justify-content: space-between;
-}
-
-#logo {
-  width: 190px;
+nav {
+  padding: 5px 16px;
+  border-bottom: 1px solid lightgray;
 }
 
 #left-nav {
   flex-basis: 200px;
 }
 
-#right-nav {
-  flex-basis: 178px;
+#logo {
+  width: 190px;
 }
 
-nav {
-  padding: 5px 16px;
-  border-bottom: 1px solid lightgray;
+#right-nav {
+  flex-basis: 178px;
 }
 
 nav button {
@@ -45,17 +40,7 @@ nav button:hover {
   background-color: #316891;
 }
 
-.align-center {
-  align-items: center;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.bold {
-  font-weight: bold;
-}
+/* Main Content */
 
 h1 {
   padding: 56px 0 24px 0;
@@ -65,23 +50,14 @@ h1 {
 }
 
 h1,
-h2,
-p {
+.content-container {
   margin: 0 auto;
   width: 600px;
 }
 
-figcaption {
+.caption{
   width: 742px;
   font-family: "Tinos", "Quattrocento" sans-serif;
-}
-
-.red {
-  background: red;
-}
-
-.m-0-auto {
-  margin: 0 auto;
 }
 
 .image-container {
@@ -97,6 +73,60 @@ figcaption {
   width: 100%;
 }
 
+.social {
+  /* flex: 1; */
+  width: 10px;
+  height: 10px;
+  /* text-align: center;
+  vertical-align: middle; */
+  /* padding: 15px; */
+  background: lightgray;
+  border-radius: 50%;
+}
+
+.content-container p {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
+}
+
+#inflation-section{
+  width: 912px;
+  
+}
+
+#inflation-grid{
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 16px;
+  /* grid-template-rows: repeat(2, 1fr); */
+}
+
+/* Generic classes*/
+
+.grid{
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -109,15 +139,12 @@ figcaption {
   flex: 3;
 }
 
-.social {
-  /* flex: 1; */
-  width: 10px;
-  height: 10px;
-  /* text-align: center;
-  vertical-align: middle; */
-  /* padding: 15px; */
-  background: lightgray;
-  border-radius: 50%;
+.red {
+  background: red;
+}
+
+.m-0-auto {
+  margin: 0 auto;
 }
 
 .gray {
@@ -130,14 +157,4 @@ figcaption {
 
 .smaller {
   font-size: 13px;
-}
-
-.paragraph-container {
-  padding: 8px 0;
-}
-
-.paragraph-container p {
-  padding: 8px 0;
-  font-size: 20px;
-  font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
 }
