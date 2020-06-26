@@ -57,7 +57,7 @@ nav button:hover {
   font-weight: bold;
 }
 
-h1{
+h1 {
   padding: 56px 0 24px 0;
   font-size: 2.3rem;
   font-family: "Tinos", "Quattrocento" sans-serif;
@@ -65,6 +65,7 @@ h1{
 }
 
 h1,
+h2,
 p {
   margin: 0 auto;
   width: 600px;
@@ -88,7 +89,7 @@ figcaption {
   padding-bottom: 40px;
 }
 
-.content-container{
+.content-container {
   width: 600px;
 }
 
@@ -96,19 +97,19 @@ figcaption {
   width: 100%;
 }
 
-.flex-1{
-  flex:1;
+.flex-1 {
+  flex: 1;
 }
 
-.flex-2{
+.flex-2 {
   flex: 2;
 }
 
-.flex-3{
+.flex-3 {
   flex: 3;
 }
 
-.social{
+.social {
   /* flex: 1; */
   width: 10px;
   height: 10px;
@@ -119,24 +120,24 @@ figcaption {
   border-radius: 50%;
 }
 
-.gray{
+.gray {
   color: #666666;
 }
 
-.light-gray{
+.light-gray {
   color: rgb(136, 136, 136);
 }
 
-.smaller{
+.smaller {
   font-size: 13px;
 }
 
-.paragraph-container{
+.paragraph-container {
   padding: 8px 0;
 }
 
-.paragraph-container p{
+.paragraph-container p {
   padding: 8px 0;
   font-size: 20px;
-  font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif
+  font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
 }
