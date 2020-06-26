@@ -27,23 +27,24 @@ nav {
   flex-basis: 178px;
 }
 
-nav button {
+button {
   background-color: #567b95;
   border: none;
   padding: 10px 13px;
   color: #ffffff;
   border-radius: 3px;
   font-size: x-small;
+  cursor: pointer;
 }
 
-nav button:hover {
+button:hover {
   background-color: #316891;
 }
 
 /* Main Content */
 
 h1 {
-  padding: 56px 0 24px 0;
+  padding: 56px 0 24px;
   font-size: 2.3rem;
   font-family: "Tinos", "Quattrocento" sans-serif;
   font-style: italic;
@@ -55,7 +56,13 @@ h1,
   width: 600px;
 }
 
-.caption {
+h2{
+  margin: 32px 0 8px;
+  font-size: 22px;
+  color: #333333;
+}
+
+figcaption {
   width: 742px;
   font-family: "Tinos", "Quattrocento" sans-serif;
 }
@@ -88,9 +95,18 @@ h1,
   border-radius: 50%;
 }
 
+iframe{
+  border: none;
+}
+
+figure{
+  margin: 32px 0;
+}
+
 .content-container p {
   padding: 10px 0;
   font-size: 20px;
+  color: #333333;
   font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
 }
 
@@ -101,6 +117,12 @@ h1,
 #inflation-grid {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
+}
+
+#comment-button{
+  padding: 12px 104px;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 /* Generic classes*/
