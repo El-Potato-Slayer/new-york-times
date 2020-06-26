@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 
-a{
-  color: #316891
+a {
+  color: #316891;
 }
 
 /* Nav */
@@ -55,7 +55,7 @@ h1,
   width: 600px;
 }
 
-.caption{
+.caption {
   width: 742px;
   font-family: "Tinos", "Quattrocento" sans-serif;
 }
@@ -71,6 +71,10 @@ h1,
 
 .full-width {
   width: 100%;
+}
+
+#mid-image-1 {
+  width: 880px;
 }
 
 .social {
@@ -90,20 +94,18 @@ h1,
   font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
 }
 
-#inflation-section{
-  width: 912px;
-  
+#inflation-section {
+  width: 944px;
 }
 
-#inflation-grid{
+#inflation-grid {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
-  /* grid-template-rows: repeat(2, 1fr); */
 }
 
 /* Generic classes*/
 
-.grid{
+.grid {
   display: grid;
 }
 
@@ -157,4 +159,8 @@ h1,
 
 .smaller {
   font-size: 13px;
+}
+
+.small {
+  font-size: 15px;
 }
