@@ -56,7 +56,7 @@ h1,
   width: 600px;
 }
 
-h2{
+h2 {
   margin: 32px 0 8px;
   font-size: 22px;
   color: #333333;
@@ -70,6 +70,11 @@ figcaption {
 .image-container {
   width: 960px;
   padding-bottom: 40px;
+}
+
+.ep-image {
+  width: 80px;
+  margin: 8px 8px;
 }
 
 .content-container {
@@ -95,11 +100,11 @@ figcaption {
   border-radius: 50%;
 }
 
-iframe{
+iframe {
   border: none;
 }
 
-figure{
+figure {
   margin: 32px 0;
 }
 
@@ -119,7 +124,7 @@ figure{
   grid-gap: 16px;
 }
 
-#comment-button{
+#comment-button {
   padding: 12px 104px;
   font-size: smaller;
   font-weight: bold;
@@ -167,6 +172,10 @@ figure{
   background: red;
 }
 
+.blue {
+  color: #326891;
+}
+
 .m-0-auto {
   margin: 0 auto;
 }
@@ -185,4 +194,25 @@ figure{
 
 .small {
   font-size: 15px;
+}
+
+hr {
+  width: 72px;
+  background-color: hsl(0, 0%, 90%);
+  border: none;
+  height: 1.3px;
+}
+
+aside {
+  float: right;
+  width: 250px;
+  margin-right: 88px;
+}
+
+.clear {
+  float: clear;
+}
+
+.text-center {
+  text-align: center;
 }
