@@ -130,7 +130,6 @@ aside {
   float: right;
   width: 250px;
   margin: -100px 80px -350px 0;
-  
 }
 
 #inflation-grid {
@@ -146,27 +145,32 @@ aside {
 }
 
 /* Suggestion section */
-#suggestion-section{
+#suggestion-section {
   width: 1200px;
   grid-template-columns: 3fr 1fr;
   grid-gap: 24px;
   margin-bottom: 100px;
 }
 
-#suggestion-section hr{
+#suggestion-section hr {
   border: none;
   height: 1px;
   background-color: #909090;
-} 
+}
 
-#space-astronomy-section{
+#space-astronomy-section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 64px 16px;
 }
 
-#space-astronomy-section img{
+#space-astronomy-section img {
   width: 100%;
   height: auto;
+}
+
+#most-popular h3 {
+  padding: 16px 0;
+  border-top: 1px solid lightgray;
 }
 
 /* Generic classes*/
@@ -177,6 +181,11 @@ aside {
 
 .flex {
   display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .space-between {
