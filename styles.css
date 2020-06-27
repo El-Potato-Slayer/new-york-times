@@ -105,7 +105,7 @@ iframe {
 }
 
 figure {
-  margin: 32px 0;
+  margin: 32px auto;
 }
 
 .content-container p {
@@ -119,6 +119,20 @@ figure {
   width: 944px;
 }
 
+main hr {
+  width: 72px;
+  background-color: hsl(0, 0%, 90%);
+  border: none;
+  height: 1.3px;
+}
+
+aside {
+  float: right;
+  width: 250px;
+  margin: -100px 80px -350px 0;
+  
+}
+
 #inflation-grid {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
@@ -128,6 +142,31 @@ figure {
   padding: 12px 104px;
   font-size: smaller;
   font-weight: bold;
+  margin: 24px 0 48px;
+}
+
+/* Suggestion section */
+#suggestion-section{
+  width: 1200px;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 24px;
+  margin-bottom: 100px;
+}
+
+#suggestion-section hr{
+  border: none;
+  height: 1px;
+  background-color: #909090;
+} 
+
+#space-astronomy-section{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 64px 16px;
+}
+
+#space-astronomy-section img{
+  width: 100%;
+  height: auto;
 }
 
 /* Generic classes*/
@@ -194,19 +233,6 @@ figure {
 
 .small {
   font-size: 15px;
-}
-
-hr {
-  width: 72px;
-  background-color: hsl(0, 0%, 90%);
-  border: none;
-  height: 1.3px;
-}
-
-aside {
-  float: right;
-  width: 250px;
-  margin-right: 88px;
 }
 
 .clear {
