@@ -161,6 +161,7 @@ aside {
 #space-astronomy-section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 64px 16px;
+  margin-bottom: 20px;
 }
 
 #space-astronomy-section img {
@@ -168,9 +169,30 @@ aside {
   height: auto;
 }
 
+#suggestion-section h4 {
+  padding: 16px 0;
+}
+
 #most-popular h3 {
   padding: 16px 0;
   border-top: 1px solid lightgray;
+}
+
+#paid-post{
+  background: hsl(0, 0%, 96%);
+}
+
+#paid-post footer{
+  padding: 2px 10px;
+}
+
+#paid-post footer img{
+  width: 70px;
+}
+
+#editors-picks{
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
 }
 
 /* Generic classes*/
@@ -250,4 +272,8 @@ aside {
 
 .text-center {
   text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
