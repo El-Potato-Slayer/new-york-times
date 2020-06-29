@@ -13,6 +13,9 @@ a {
 nav {
   padding: 5px 16px;
   border-bottom: 1px solid lightgray;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 #left-nav {
@@ -153,6 +156,8 @@ aside {
   grid-template-columns: 3fr 1fr;
   grid-gap: 24px;
   margin-bottom: 100px;
+  /* font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif; */
+
 }
 
 #suggestion-section hr {
@@ -207,6 +212,8 @@ aside {
 
 footer {
   padding: 24px 124px 40px;
+  font-family: "Tinos", "Quattrocento" sans-serif;
+
 }
 
 #footer-bottom {
@@ -222,6 +229,11 @@ footer hr:first-child {
 }
 
 footer div a {
+  text-decoration: none;
+  /* color: #333333; */
+}
+
+footer div div a {
   text-decoration: none;
   color: #333333;
 }
@@ -243,7 +255,7 @@ footer div div a {
   flex-basis: 24px;
 }
 
-footer div div hr {
+footer hr {
   margin: 10px 0;
   border: none;
   border-top: 1px solid hsl(0, 0%, 85%);
@@ -317,7 +329,6 @@ footer div div hr {
 
 .smallest {
   font-size: 11px;
-}
 }
 
 .smaller {
