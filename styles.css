@@ -47,9 +47,9 @@ button:hover {
 /* Main Content */
 
 h1 {
-  padding: 56px 0 24px;
+  padding: 88px 0 24px;
   font-size: 2.3rem;
-  font-family: "Tinos", "Quattrocento" sans-serif;
+  font-family: "Tinos", "Quattrocento", sans-serif;
   font-style: italic;
 }
 
@@ -67,7 +67,7 @@ h2 {
 
 figcaption {
   width: 742px;
-  font-family: "Tinos", "Quattrocento" sans-serif;
+  font-family: "Tinos", "Quattrocento", sans-serif;
 }
 
 .image-container {
@@ -90,17 +90,6 @@ figcaption {
 
 #mid-image-1 {
   width: 880px;
-}
-
-.social {
-  /* flex: 1; */
-  width: 10px;
-  height: 10px;
-  /* text-align: center;
-  vertical-align: middle; */
-  /* padding: 15px; */
-  background: lightgray;
-  border-radius: 50%;
 }
 
 iframe {
@@ -156,7 +145,6 @@ aside {
   grid-template-columns: 3fr 1fr;
   grid-gap: 24px;
   margin-bottom: 100px;
-  /* font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif; */
 }
 
 #suggestion-section hr {
@@ -212,11 +200,12 @@ aside {
 
 footer {
   padding: 24px 124px 40px;
-  font-family: "Tinos", "Quattrocento" sans-serif;
+  font-family: "Tinos", "Quattrocento", sans-serif;
 }
 
 #footer-bottom {
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 footer hr:first-child {
@@ -229,7 +218,6 @@ footer hr:first-child {
 
 footer div a {
   text-decoration: none;
-  /* color: #333333; */
 }
 
 footer div div a {
@@ -266,12 +254,20 @@ footer hr {
 
 #special-icons {
   margin-bottom: 16px;
-  /* flex-basis: 32px; */
 }
 
 #bottom-div {
-  grid-template-columns: 4fr 1fr;
-  justify-items: center;
+  grid-template-columns: 1.5fr 1fr;
+  padding: 20px 88px;
+  border-top: 1px solid #333333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#bottom-div i{
+  padding: 0 24px;
 }
 
 /* Generic classes*/
@@ -354,10 +350,6 @@ footer hr {
 
 .small {
   font-size: 15px;
-}
-
-.clear {
-  float: clear;
 }
 
 .text-center {
