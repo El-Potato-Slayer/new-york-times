@@ -8,11 +8,24 @@ a {
   color: #316891;
 }
 
+aside div a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer div a {
+  text-decoration: none;
+}
+
+footer div div a {
+  text-decoration: none;
+  color: #333;
+  flex-basis: 24px;
+}
+
 a:hover {
   text-decoration: underline;
 }
-
-/* Nav */
 
 nav {
   padding: 5px 16px;
@@ -38,7 +51,7 @@ button {
   background-color: #567b95;
   border: none;
   padding: 10px 13px;
-  color: #ffffff;
+  color: #fff;
   border-radius: 3px;
   font-size: x-small;
   cursor: pointer;
@@ -47,8 +60,6 @@ button {
 button:hover {
   background-color: #316891;
 }
-
-/* Main Content */
 
 h1 {
   padding: 88px 0 24px;
@@ -66,7 +77,7 @@ h1,
 h2 {
   margin: 32px 0 8px;
   font-size: 22px;
-  color: #333333;
+  color: #333;
 }
 
 section figure figcaption {
@@ -103,7 +114,7 @@ figure {
 .content-container p {
   padding: 10px 0;
   font-size: 20px;
-  color: #333333;
+  color: #333;
   font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif;
 }
 
@@ -130,18 +141,33 @@ aside hr {
   margin: 10px 0;
 }
 
-aside div a {
-  text-decoration: none;
-  color: #333333;
-}
-
 #inflation-grid {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
 }
 
+footer hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 85%);
+}
+
+footer hr:first-child {
+  height: 3.5px;
+  border: 1px solid hsl(0, 0%, 70%);
+  border-left: none;
+  border-right: none;
+  margin: 16px 0;
+}
+
 #inflation-section hr {
-  border: 1px solid #333333;
+  border: 1px solid #333;
+}
+
+#suggestion-section hr {
+  border: none;
+  height: 1px;
+  background-color: #909090;
 }
 
 #comment-button {
@@ -154,7 +180,6 @@ aside div a {
   margin: 20px 0 64px;
 }
 
-/* Suggestion section */
 #suggestion-section {
   width: 1200px;
   grid-template-columns: 3fr 1fr;
@@ -162,19 +187,22 @@ aside div a {
   margin-bottom: 100px;
 }
 
+footer div div a:hover {
+  text-decoration: underline;
+}
+
 #suggestion-section a {
   text-decoration: none;
-  color: #333333;
+  color: #333;
+}
+
+#most-popular h3 a {
+  text-decoration: none;
+  color: #333;
 }
 
 #suggestion-section a:hover {
   color: hsl(0, 0%, 50%);
-}
-
-#suggestion-section hr {
-  border: none;
-  height: 1px;
-  background-color: #909090;
 }
 
 #space-astronomy-section {
@@ -201,6 +229,11 @@ aside div a {
   background: hsl(0, 0%, 96%);
 }
 
+footer {
+  padding: 24px 124px 40px;
+  font-family: "Tinos", "Quattrocento", sans-serif;
+}
+
 #paid-post footer {
   padding: 2px 10px;
 }
@@ -215,42 +248,9 @@ aside div a {
   grid-gap: 16px;
 }
 
-#most-popular h3 a {
-  text-decoration: none;
-  color: #333333;
-}
-
-/* Footer */
-
-footer {
-  padding: 24px 124px 40px;
-  font-family: "Tinos", "Quattrocento", sans-serif;
-}
-
 #footer-bottom {
   margin-top: 20px;
   margin-bottom: 50px;
-}
-
-footer hr:first-child {
-  height: 3.5px;
-  border: 1px solid hsl(0, 0%, 70%);
-  border-left: none;
-  border-right: none;
-  margin: 16px 0;
-}
-
-footer div a {
-  text-decoration: none;
-}
-
-footer div div a {
-  text-decoration: none;
-  color: #333333;
-}
-
-footer div div a:hover {
-  text-decoration: underline;
 }
 
 #footer-container {
@@ -266,16 +266,6 @@ footer h5 {
   margin-bottom: 10px;
 }
 
-footer div div a {
-  flex-basis: 24px;
-}
-
-footer hr {
-  margin: 10px 0;
-  border: none;
-  border-top: 1px solid hsl(0, 0%, 85%);
-}
-
 #special-icons {
   margin-bottom: 16px;
 }
@@ -283,7 +273,7 @@ footer hr {
 #bottom-div {
   grid-template-columns: 1.5fr 1fr;
   padding: 20px 88px;
-  border-top: 1px solid #333333;
+  border-top: 1px solid #333;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -293,8 +283,6 @@ footer hr {
 #bottom-div i {
   padding: 0 24px;
 }
-
-/* Generic classes*/
 
 .grid {
   display: grid;
