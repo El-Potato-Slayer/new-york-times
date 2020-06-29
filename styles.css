@@ -157,7 +157,6 @@ aside {
   grid-gap: 24px;
   margin-bottom: 100px;
   /* font-family: "Source Serif Pro", "Libre Caslon Text", sans-serif; */
-
 }
 
 #suggestion-section hr {
@@ -196,6 +195,7 @@ aside {
 
 #paid-post footer img {
   width: 70px;
+  margin: 10px 0 6px;
 }
 
 #editors-picks {
@@ -213,7 +213,6 @@ aside {
 footer {
   padding: 24px 124px 40px;
   font-family: "Tinos", "Quattrocento" sans-serif;
-
 }
 
 #footer-bottom {
@@ -221,7 +220,7 @@ footer {
 }
 
 footer hr:first-child {
-  height: 4px;
+  height: 3.5px;
   border: 1px solid hsl(0, 0%, 70%);
   border-left: none;
   border-right: none;
@@ -236,6 +235,10 @@ footer div a {
 footer div div a {
   text-decoration: none;
   color: #333333;
+}
+
+footer div div a:hover {
+  text-decoration: underline;
 }
 
 #footer-container {
@@ -261,6 +264,16 @@ footer hr {
   border-top: 1px solid hsl(0, 0%, 85%);
 }
 
+#special-icons {
+  margin-bottom: 16px;
+  /* flex-basis: 32px; */
+}
+
+#bottom-div {
+  grid-template-columns: 4fr 1fr;
+  justify-items: center;
+}
+
 /* Generic classes*/
 
 .grid {
@@ -281,6 +294,10 @@ footer hr {
 
 .align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .uppercase {
@@ -349,4 +366,12 @@ footer hr {
 
 .text-right {
   text-align: right;
+}
+
+.bigger {
+  font-size: 16px;
+}
+
+.image-margin {
+  margin-bottom: -3px;
 }
