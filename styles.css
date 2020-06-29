@@ -65,7 +65,7 @@ h2 {
   color: #333333;
 }
 
-figcaption {
+section figure figcaption {
   width: 742px;
   font-family: "Tinos", "Quattrocento", sans-serif;
 }
@@ -86,10 +86,6 @@ figcaption {
 
 .full-width {
   width: 100%;
-}
-
-#mid-image-1 {
-  width: 880px;
 }
 
 iframe {
@@ -124,9 +120,17 @@ aside {
   margin: -100px 80px -350px 0;
 }
 
+aside hr{
+  width: 100%;
+}
+
 #inflation-grid {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
+}
+
+#inflation-section hr{
+  border: 1px solid #333333;
 }
 
 #comment-button {
@@ -318,14 +322,6 @@ footer hr {
 
 .flex-3 {
   flex: 3;
-}
-
-.red {
-  background: red;
-}
-
-.blue {
-  color: #326891;
 }
 
 .m-0-auto {
