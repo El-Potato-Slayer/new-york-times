@@ -141,7 +141,10 @@ aside {
   padding: 12px 104px;
   font-size: smaller;
   font-weight: bold;
-  margin: 24px 0 48px;
+}
+
+#social-bottom {
+  margin: 20px 0 64px;
 }
 
 /* Suggestion section */
@@ -178,21 +181,26 @@ aside {
   border-top: 1px solid lightgray;
 }
 
-#paid-post{
+#paid-post {
   background: hsl(0, 0%, 96%);
 }
 
-#paid-post footer{
+#paid-post footer {
   padding: 2px 10px;
 }
 
-#paid-post footer img{
+#paid-post footer img {
   width: 70px;
 }
 
-#editors-picks{
+#editors-picks {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 16px;
+}
+
+#most-popular h3 a {
+  text-decoration: none;
+  color: #333333;
 }
 
 /* Generic classes*/
@@ -224,6 +232,10 @@ aside {
 
 .bold {
   font-weight: bold;
+}
+
+.flex-end {
+  justify-content: space-around;
 }
 
 .flex-1 {
@@ -274,6 +286,6 @@ aside {
   text-align: center;
 }
 
-.text-right{
+.text-right {
   text-align: right;
 }
