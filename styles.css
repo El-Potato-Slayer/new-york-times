@@ -8,6 +8,10 @@ a {
   color: #316891;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 /* Nav */
 
 nav {
@@ -105,6 +109,7 @@ figure {
 
 #inflation-section {
   width: 944px;
+  margin-bottom: 40px;
 }
 
 main hr {
@@ -120,8 +125,14 @@ aside {
   margin: -100px 80px -350px 0;
 }
 
-aside hr{
+aside hr {
   width: 100%;
+  margin: 10px 0;
+}
+
+aside div a {
+  text-decoration: none;
+  color: #333333;
 }
 
 #inflation-grid {
@@ -129,7 +140,7 @@ aside hr{
   grid-gap: 16px;
 }
 
-#inflation-section hr{
+#inflation-section hr {
   border: 1px solid #333333;
 }
 
@@ -149,6 +160,15 @@ aside hr{
   grid-template-columns: 3fr 1fr;
   grid-gap: 24px;
   margin-bottom: 100px;
+}
+
+#suggestion-section a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#suggestion-section a:hover {
+  color: hsl(0, 0%, 50%);
 }
 
 #suggestion-section hr {
@@ -270,7 +290,7 @@ footer hr {
   background-color: white;
 }
 
-#bottom-div i{
+#bottom-div i {
   padding: 0 24px;
 }
 
@@ -362,4 +382,8 @@ footer hr {
 
 .image-margin {
   margin-bottom: -3px;
+}
+
+.blue {
+  color: #316891;
 }
