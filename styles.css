@@ -205,17 +205,48 @@ aside {
 
 /* Footer */
 
-footer{
-  padding: 24px 80px 40px; 
-  background-color: blue;
+footer {
+  padding: 24px 124px 40px;
 }
 
-footer hr{
+#footer-bottom {
+  margin-top: 20px;
+}
+
+footer hr:first-child {
   height: 4px;
   border: 1px solid hsl(0, 0%, 70%);
   border-left: none;
   border-right: none;
   margin: 16px 0;
+}
+
+footer div a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#footer-container {
+  padding: 20px 0;
+}
+
+#subscribe {
+  border-left: 1px solid hsl(0, 0%, 70%);
+  padding-left: 16px;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+}
+
+footer div div a {
+  flex-basis: 24px;
+}
+
+footer div div hr {
+  margin: 10px 0;
+  border: none;
+  border-top: 1px solid hsl(0, 0%, 85%);
 }
 
 /* Generic classes*/
@@ -282,6 +313,11 @@ footer hr{
 
 .light-gray {
   color: rgb(136, 136, 136);
+}
+
+.smallest {
+  font-size: 11px;
+}
 }
 
 .smaller {
