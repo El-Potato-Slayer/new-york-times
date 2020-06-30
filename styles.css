@@ -9,21 +9,21 @@ a {
   text-decoration: none;
 }
 
-nav a:hover{
-  text-decoration: none;
-}
-
-.content-container a{
-  color: #316891;
-  text-decoration: underline;
-}
-
 footer div div a {
   flex-basis: 24px;
 }
 
+.content-container a {
+  color: #316891;
+  text-decoration: underline;
+}
+
 a:hover {
   text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
 }
 
 nav {
@@ -56,15 +56,15 @@ button {
   cursor: pointer;
 }
 
-#left-nav button{
+button:hover {
+  background-color: #316891;
+}
+
+#left-nav button {
   background-color: transparent;
   border: none;
   color: #333;
   font-size: medium;
-}
-
-button:hover {
-  background-color: #316891;
 }
 
 h1 {
@@ -377,6 +377,6 @@ footer h5 {
   color: #316891;
 }
 
-.dark-gray{
+.dark-gray {
   color: #333;
 }
