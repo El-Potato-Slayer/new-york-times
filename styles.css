@@ -18,15 +18,15 @@ footer div div a {
   text-decoration: underline;
 }
 
+a:hover,
+footer div div a:hover {
+  text-decoration: underline;
+}
+
 nav a:hover,
 #suggestion-section a,
 #most-popular h3 a {
   text-decoration: none;
-}
-
-a:hover,
-footer div div a:hover {
-  text-decoration: underline;
 }
 
 nav {
