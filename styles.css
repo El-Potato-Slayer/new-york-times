@@ -18,11 +18,8 @@ footer div div a {
   text-decoration: underline;
 }
 
-nav a:hover{
-  text-decoration: none; /* Liter was giving errors about code not being ordered properly, therefore I can't group this with line 30 */
-}
-
 a:hover,
+nav a:hover,
 footer div div a:hover {
   text-decoration: underline;
 }
