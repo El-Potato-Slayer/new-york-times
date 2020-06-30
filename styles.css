@@ -18,20 +18,20 @@ footer div div a {
   text-decoration: underline;
 }
 
-a:hover {
+a:hover,
+footer div div a:hover {
   text-decoration: underline;
 }
 
-nav a:hover {
+nav a:hover,
+#suggestion-section a,
+#most-popular h3 a {
   text-decoration: none;
 }
 
 nav {
   padding: 5px 16px;
   border-bottom: 1px solid lightgray;
-  position: fixed;
-  width: 100%;
-  background-color: white;
 }
 
 #left-nav {
@@ -193,15 +193,6 @@ footer hr:first-child {
   margin-bottom: 100px;
 }
 
-footer div div a:hover {
-  text-decoration: underline;
-}
-
-#suggestion-section a,
-#most-popular h3 a {
-  text-decoration: none;
-}
-
 #suggestion-section a:hover {
   color: hsl(0, 0%, 50%);
 }
@@ -252,6 +243,7 @@ footer {
 #footer-bottom {
   margin-top: 20px;
   margin-bottom: 50px;
+  padding: 0 56px;
 }
 
 #footer-container {
@@ -275,10 +267,7 @@ footer h5 {
   grid-template-columns: 1.5fr 1fr;
   padding: 20px 88px;
   border-top: 1px solid #333;
-  position: fixed;
   bottom: 0;
-  width: 100%;
-  background-color: white;
 }
 
 #bottom-div i {
@@ -303,10 +292,6 @@ footer h5 {
 
 .align-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .uppercase {
@@ -379,4 +364,10 @@ footer h5 {
 
 .dark-gray {
   color: #333;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
