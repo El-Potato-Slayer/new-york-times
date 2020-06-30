@@ -5,21 +5,20 @@
 }
 
 a {
-  color: #316891;
-}
-
-aside div a {
-  text-decoration: none;
   color: #333;
+  text-decoration: none;
 }
 
-footer div a {
+nav a:hover{
   text-decoration: none;
+}
+
+.content-container a{
+  color: #316891;
+  text-decoration: underline;
 }
 
 footer div div a {
-  text-decoration: none;
-  color: #333;
   flex-basis: 24px;
 }
 
@@ -36,7 +35,7 @@ nav {
 }
 
 #left-nav {
-  flex-basis: 200px;
+  flex-basis: 250px;
 }
 
 #logo {
@@ -55,6 +54,13 @@ button {
   border-radius: 3px;
   font-size: x-small;
   cursor: pointer;
+}
+
+#left-nav button{
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: medium;
 }
 
 button:hover {
@@ -191,14 +197,9 @@ footer div div a:hover {
   text-decoration: underline;
 }
 
-#suggestion-section a {
-  text-decoration: none;
-  color: #333;
-}
-
+#suggestion-section a,
 #most-popular h3 a {
   text-decoration: none;
-  color: #333;
 }
 
 #suggestion-section a:hover {
@@ -374,4 +375,8 @@ footer h5 {
 
 .blue {
   color: #316891;
+}
+
+.dark-gray{
+  color: #333;
 }
